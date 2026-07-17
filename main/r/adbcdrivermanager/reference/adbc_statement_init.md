@@ -31,8 +31,8 @@ adbc_statement_get_option_double(statement, option)
 
 - ...:
 
-  Driver-specific options. For the default method, these are named
-  values that are converted to strings.
+  Driver-specific options. These are generally named values that are
+  converted to strings.
 
 - options:
 
@@ -63,11 +63,11 @@ An object of class 'adbc_statement'
 db <- adbc_database_init(adbc_driver_void())
 con <- adbc_connection_init(db)
 adbc_statement_init(con)
-#> <adbc_statement at 0x5565f70376b0> 
+#> <adbc_statement at 0x55ca91323740> 
 #> List of 1
-#>  $ connection:<adbc_connection at 0x5565f7579e90> 
+#>  $ connection:<adbc_connection at 0x55ca913472c0> 
 #> List of 1
-#>   ..$ database:<adbc_database at 0x5565f235b660> 
+#>   ..$ database:<adbc_database at 0x55ca91664a50> 
 #> List of 1
 #>   .. ..$ driver:<adbc_driver_void> List of 4
 #>   .. .. ..$ load_flags      : int 15
