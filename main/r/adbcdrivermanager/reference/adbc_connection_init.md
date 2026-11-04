@@ -62,9 +62,9 @@ An object of class 'adbc_connection'
 ``` r
 db <- adbc_database_init(adbc_driver_void())
 adbc_connection_init(db)
-#> <adbc_connection at 0x568164ffe2e0> 
+#> <adbc_connection at 0x64ecab074ad0> 
 #> List of 1
-#>  $ database:<adbc_database at 0x56816553e690> 
+#>  $ database:<adbc_database at 0x64ecab4c0990> 
 #> List of 1
 #>   ..$ driver:<adbc_driver_void> List of 4
 #>   .. ..$ load_flags      : int 15
