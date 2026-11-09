@@ -109,7 +109,7 @@ environment variable substitution.
 
 ``` r
 adbc_database_init(adbc_driver_void())
-#> <adbc_database at 0x5b99904a3f00> 
+#> <adbc_database at 0x5a6c8d521dd0> 
 #> List of 1
 #>  $ driver:<adbc_driver_void> List of 4
 #>   ..$ load_flags      : int 15
